@@ -32,12 +32,12 @@
 
 	<h1>Welcome</h1>
 <p>UNIX, grep, vi, awk, find, sort, uniq, tips, tricks and code examples. </p>
-	
+
 		<h3> What's new:</h3>
 
     <p>	<a href="awk-nawk.shtml">UNIX awk-nawk code examples</a></p>
 	<p>Enjoy!</p>
-	
+
 
 	<p>&nbsp;</p>
 
@@ -68,27 +68,8 @@
 	</div>
 	</div>
 
-	<div id="footer">
-	<!-- start of footer section: insert your copyright notice, etc, here -->
+<!--#include virtual="footer.html" -->
 
-	<p>
-
-	&copy; 
-	<?php 
-$copyYear = 2008; 
-$curYear = date('Y'); 
-echo $copyYear . (($copyYear != $curYear) ? '-' . $curYear : '  ');
-                     ?>
-					 &nbsp
-Me, Inc.
-
-	</p>
-
-	<!-- end of footer section: insert your copyright notice, etc, above this line -->
-	</div>
-
-
- </div>
 
 </body>
 
